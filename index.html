@@ -1,68 +1,895 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>RESEARCHI - Redefining Spaces Through Research & Design</title>
-    <meta name="description" content="We forge legacies. RESEARCHI unites rigorous data-driven research with architectural mastery to create precision-crafted, timeless spaces that elevate and inspire human experience.">
-    <meta name="keywords" content="RESEARCHI, Architecture, Interior Design, Research, Architectural Innovation, Data-Driven Design, Timeless Spaces">
-    
-    <meta property="og:title" content="RESEARCHI: Research, Architecture, Interior Design">
-    <meta property="og:description" content="We forge legacies. RESEARCHI unites rigorous data-driven research with architectural mastery to create precision-crafted, timeless spaces that elevate and inspire human experience.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://rese.archi/">
-    <meta property="og:image" content="/researchi-meta.jpg"> 
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        :root {
-            --brand-red: rgb(165, 0, 0);
-        }
-    </style>
-</head>
-<body class="bg-white">
-    <div class="min-h-screen flex flex-col items-center justify-center bg-white text-center px-6 relative overflow-hidden">
-        
-        <div class="mb-8 w-full max-w-3xl"> 
-            <img 
-                src="/researchi.svg" 
-                alt="Researchi Logo" 
-                class="mx-auto w-full h-auto max-h-[300px] object-contain" 
-            />
-        </div>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <div class="max-w-3xl w-full">
-            <h1 class="text-3xl md:text-5xl font-semibold text-gray-900 mb-4 tracking-tight">
-                <span style="font-size: 50%;">Redefining Spaces Through</span><br> 
-                
-                <span style="color: rgb(165, 0, 0);">Research & Design</span>
-            </h1><br>
-            
-            <p class="text-base md:text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-                At RESEARCHI, architecture meets insight.<br> 
-Through rigorous, data-driven research and the power of Artificial Intelligence,<br> 
-we craft spaces that are precise, timeless, and purposeful.<br> 
-Every project is designed to inspire, elevate, and enrich the human experience.<br> 
-            </p>
-            
-            <div class="flex items-center justify-center">
-                <a
-                    href="https://wa.me/917376677667?text=I'm%20interested%20in%20"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-block rounded-full px-6 py-2 text-lg text-white transition-colors"
-                    style="background-color: rgb(165, 0, 0);"
-                >
-                    Contact Us
-                </a>
+    <!-- bootstrap grid css -->
+    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css">
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="css/plugins/swiper.min.css">
+    <!-- fancybox css -->
+    <link rel="stylesheet" href="css/plugins/fancybox.min.css">
+    <!-- ashley scss -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- page name -->
+    <title>ReseArchi - Research | Architecture | Interior Design</title>
+
+</head>
+
+<body>
+
+    <!-- wrapper -->
+    <div class="researchi-wrapper" id="top">
+
+        <!-- cursor -->
+        <div class="researchi-ball">
+            <span class="researchi-icon-1">
+                <svg viewBox="0 0 128 128">
+                    <path d="M106.1,41.9c-1.2-1.2-3.1-1.2-4.2,0c-1.2,1.2-1.2,3.1,0,4.2L116.8,61H11.2l14.9-14.9c1.2-1.2,1.2-3.1,0-4.2	c-1.2-1.2-3.1-1.2-4.2,0l-20,20c-1.2,1.2-1.2,3.1,0,4.2l20,20c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9c1.2-1.2,1.2-3.1,0-4.2	L11.2,67h105.5l-14.9,14.9c-1.2,1.2-1.2,3.1,0,4.2c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9l20-20c1.2-1.2,1.2-3.1,0-4.2L106.1,41.9	z" />
+                </svg>
+            </span>
+            <div class="researchi-more-text">More</div>
+            <div class="researchi-choose-text">Сhoose</div>
+        </div>
+        <!-- cursor end -->
+
+        <!-- preloader -->
+        <div class="researchi-preloader">
+            <div class="researchi-preloader-animation">
+                <div class="researchi-pos-abs researchi-animation-1">
+                    <p class="researchi-h3 researchi-muted researchi-thin"><span style="color:rgb(165,0,0);">Rese</span>arch</p>
+                    <p class="researchi-h3 researchi-muted"><span style="color:rgb(165,0,0);">Arch</span>itecture</p>
+                    <p class="researchi-h3 researchi-muted researchi-thin"><span style="color:rgb(165,0,0);">I</span>nterior Design</p>
+                </div>
+                <div class="researchi-pos-abs researchi-animation-2">
+                    <div class="researchi-reveal-frame">
+                        <p class="researchi-reveal-box"></p>
+                        <p class="researchi-h3 researchi-muted researchi-thin">rese.archi</p>
+                    </div>
+                </div>
             </div>
         </div>
-		
-        <footer class="absolute bottom-6 left-0 right-0 text-sm text-gray-500">
-            <p>© 2025 RESEARCHI | Research | Architecture | Interior Design</p>
-            <p>Contact: +91 73 7667 7667 | mail@rese.archi | rese.archi</p>
-        </footer>
+        <!-- preloader end -->
+
+        <!-- scrollbar progress -->
+        <div class="researchi-progress-track">
+            <div class="researchi-progress"></div>
+        </div>
+        <!-- scrollbar progress end -->
+
+        <!-- menu -->
+        <div class="researchi-menu-frame">
+            <!-- frame clone -->
+            <div class="researchi-frame-top">
+                <a href="home-1.html" class="researchi-logo">RESEARCHI</a>
+                <div class="researchi-menu-btn">
+                    <span></span>
+                </div>
+            </div>
+            <!-- frame clone end -->
+            <div class="container">
+                <div class="researchi-menu-content">
+                    <div class="row">
+                        <div class="col-xl-5">
+
+                            <nav class="researchi-main-menu" id="swupMenu">
+                                <ul>
+                                    <li class="researchi-has-children researchi-active">
+                                        <a href="#.">Homepage</a>
+                                        <ul>
+                                            <li><a href="home-1.html">Landing page</a></li>
+                                            <li><a href="home-2.html">Personal</a></li>
+                                            <li><a href="portfolio-3.html">Portfolio slider</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="researchi-has-children">
+                                        <a href="#.">Portfolio</a>
+                                        <ul>
+                                            <li><a href="portfolio-1.html">Grid type 1</a></li>
+                                            <li><a href="portfolio-2.html">Grid type 2</a></li>
+                                            <li><a href="portfolio-3.html">Slider</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="researchi-has-children">
+                                        <a href="#.">Services</a>
+                                        <ul>
+                                            <li><a href="services.html">Services List</a></li>
+                                            <li><a href="service.html">Single service</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="researchi-has-children">
+                                        <a href="#.">Newsletter</a>
+                                        <ul>
+                                            <li><a href="blog.html">Blog List</a></li>
+                                            <li><a href="publication.html">Publication</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="researchi-has-children">
+                                        <a href="#.">Other pages</a>
+                                        <ul>
+                                            <li><a href="team.html">Team</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="404.html">404</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                        <div class="col-xl-7">
+
+                            <div class="researchi-menu-right-frame">
+                                <div class="researchi-animation-in">
+                                    <div class="researchi-animation-frame">
+                                        <div class="researchi-animation researchi-position-1 researchi-scale" data-value-1="2" data-value-2="2"></div>
+                                    </div>
+                                </div>
+                                <div class="researchi-menu-right">
+                                    <div class="row">
+                                        <div class="col-lg-8 researchi-mb-60">
+
+                                            <h6 class="researchi-muted researchi-mb-30">Projects</h6>
+
+                                            <ul class="researchi-menu-list">
+                                                <li><a href="project-1.html" class="researchi-light-soft">Interior design studio</a></li>
+                                                <li><a href="project-2.html" class="researchi-light-soft">Home Security Camera</a></li>
+                                                <li><a href="project-3.html" class="researchi-light-soft">Kemia Honest Skincare</a></li>
+                                                <li><a href="project-4.html" class="researchi-light-soft">Cascade of Lava</a></li>
+                                                <li><a href="project-5.html" class="researchi-light-soft">Air Pro by Molekule</a></li>
+                                                <li><a href="project-6.html" class="researchi-light-soft">Tony's Chocolonely</a></li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="col-lg-4 researchi-mb-60">
+
+                                            <h6 class="researchi-muted researchi-mb-30">Useful links</h6>
+
+                                            <ul class="researchi-menu-list">
+                                                <li><a href="#." class="researchi-light-soft">Privacy Policy</a></li>
+                                                <li><a href="#." class="researchi-light-soft">Terms and conditions</a></li>
+                                                <li><a href="#." class="researchi-light-soft">Cookie Policy</a></li>
+                                                <li><a href="#." class="researchi-light-soft">Careers</a></li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                    <div class="researchi-divider researchi-mb-60"></div>
+                                    <div class="row justify-content-between">
+
+                                        <div class="col-lg-4 researchi-mb-60">
+
+                                            <h6 class="researchi-muted researchi-mb-30">United Arab Emirates</h6>
+
+                                            <p class="researchi-light-soft researchi-up">One Central, Dubai <span class="researchi-no-wrap">+971 58 590 3838</span></p>
+
+                                        </div>
+                                        <div class="col-lg-4 researchi-mb-60">
+
+                                            <h6 class="researchi-muted researchi-mb-30">India</h6>
+
+                                            <p class="researchi-light-soft">Mahanagar, Lucknow <span class="researchi-no-wrap">+91 73 7667 7667</span></p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- menu -->
+        
+        <!-- curtain -->
+        <div class="researchi-curtain"></div>
+        <!-- curtain end -->
+
+        <!-- frame -->
+        <div class="researchi-frame">
+            <div class="researchi-frame-top">
+                <a href="home-1.html" class="researchi-logo">RESEARCHI</a>
+                <div class="researchi-menu-btn">
+                    <span></span>
+                </div>
+            </div>
+            <div class="researchi-frame-bottom">
+                <div class="researchi-current-page"></div>
+                <div class="researchi-back-to-top">
+                    <a href="#top" class="researchi-link researchi-dark researchi-arrow-place">
+                        <span>Back to top</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- frame end -->
+
+        <!-- content -->
+        <div class="researchi-content">
+            <div id="swupMain" class="researchi-main-transition">
+
+                <!-- banner -->
+                <section class="researchi-banner researchi-dark-bg">
+                    <div class="mi-invert-fix">
+                        <div class="researchi-animation-frame">
+                            <div class="researchi-animation researchi-position-1 researchi-scale" data-value-1="7" data-value-2="1.6"></div>
+                            <div class="researchi-animation researchi-position-2 researchi-scale" data-value-1="4" data-value-2="1"></div>
+                            <div class="researchi-animation researchi-position-3 researchi-scale" data-value-1="1.2" data-value-2=".1"></div>
+                        </div>
+
+                        <div class="researchi-gradient"></div>
+
+                        <div class="container">
+                            <div class="researchi-banner-content researchi-up">
+
+                                <h1 class="researchi-muted researchi-mb-60"><span style="color:rgb(165,0,0);">Rese</span>arch, <span style="color:rgb(165,0,0);">Arch</span>itecture & <span style="color:rgb(165,0,0);">I</span>nterior design </br><span class="researchi-thin">converge to inspire human experience.</span></h1>
+                                <div class="row">
+                                    <div class="col-md-7 col-lg-7">
+
+                                        <p class="researchi-light-soft researchi-mb-60">A journey where imagination finds form and beauty meets intention.<br/> We transform dreams into places that tell stories and evoke feeling.</p>
+
+                                    </div>
+                                </div>
+
+                                <a href="services.html" class="researchi-button researchi-arrow-place researchi-btn-space">
+                                    <span>What we do</span>
+                                </a>
+
+                                <a href="portfolio-1.html" class="researchi-link researchi-muted researchi-arrow-place">
+                                    <span>View works</span>
+                                </a>
+
+                                <div class="researchi-circle-text">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve" class="researchi-ct-svg researchi-rotate" data-value="360">
+                                        <defs>
+                                            <path id="circlePath" d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 " />
+                                        </defs>
+                                        <circle cx="150" cy="100" r="75" fill="none" />
+                                        <g>
+                                            <use xlink:href="#circlePath" fill="none" />
+                                            <text style="letter-spacing: 6.5px">
+                                                <!-- circle text -->
+                                                <textPath xlink:href="#circlePath">Scroll down - Scroll down - </textPath>
+                                            </text>
+                                        </g>
+                                    </svg>
+                                    <a href="#about" class="researchi-button researchi-arrow-place researchi-icon-button researchi-arrow-down"></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- banner end -->
+
+                <!-- about -->
+                <section id="about">
+                    <div class="container researchi-p-120-30">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-lg-6 col-xl-5">
+
+                                <div class="researchi-mb-90">
+                                    <h2 class="researchi-up researchi-mb-60">Discover <br>Our <span class="researchi-thin">Studio</span></h2>
+                                    <p class="researchi-up researchi-mb-30">At our design studio, we are a collective of talented individuals ignited by our unwavering passion for transforming ideas into reality. With a harmonious blend of diverse backgrounds and a vast array of skill sets, we join forces to create compelling solutions for our esteemed clients.</p>
+
+                                    <p class="researchi-up researchi-mb-60">Collaboration is at the heart of what we do. Our team thrives on the synergy that arises when unique perspectives converge, fostering an environment of boundless creativity. By harnessing our collective expertise, we produce extraordinary results that consistently surpass expectations.</p>
+
+                                    <div class="researchi-about-quote">
+                                        <div class="researchi-avatar researchi-up">
+                                            <img src="img/faces/customers/2.jpg" alt="Founder">
+                                        </div>
+                                        <h6 class="researchi-quote researchi-up">Passionately Creating <span class="researchi-thin">Design Wonders:</span> Unleashing <span class="researchi-thin">Boundless Creativity</span></h6>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-5">
+
+                                <div class="researchi-about-photo researchi-mb-90">
+                                    <div class="researchi-lines-place"></div>
+                                    <div class="researchi-up researchi-img-frame" style="padding-bottom: 160%;">
+                                        <img src="img/photo/1.jpg" alt="img" class="researchi-scale" data-value-1="1" data-value-2="1.2">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- about end -->
+
+                <!-- services -->
+                <section class="researchi-dark-bg">
+                    <div class="mi-invert-fix">
+                        <div class="researchi-animation-frame">
+                            <div class="researchi-animation researchi-position-1 researchi-scale" data-value-1="2.4" data-value-2="1.4" style="top: 300px; right: -100px"></div>
+                            <div class="researchi-animation researchi-position-2 researchi-scale" data-value-1="2" data-value-2="1" style="left: 150px"></div>
+                        </div>
+                        <div class="container researchi-p-120-0">
+
+                            <div class="researchi-mb-120">
+                                <div class="row">
+                                    <div class="col-lg-10">
+
+                                        <span class="researchi-suptitle researchi-light-soft researchi-suptitle-right researchi-up">Professionals focused on helping your brand<br> grow and move forward.</span>
+
+                                    </div>
+                                </div>
+
+                                <div class="researchi-complex-text justify-content-center researchi-up researchi-mb-15">
+
+                                    <span class="researchi-text-image"><img src="img/photo/2.jpg" alt="team"></span>
+                                    <h2 class="researchi-h1 researchi-muted researchi-center">Unique <span class="researchi-thin">Ideas</span></h2>
+
+                                </div>
+                                <div class="researchi-complex-text justify-content-center researchi-up">
+
+                                    <h2 class="researchi-h1 researchi-muted researchi-center">For Your <span class="researchi-thin">Business.</span></h2>
+                                    <a href="services.html" class="researchi-services-button researchi-button researchi-arrow-place"><span>What we do</span></a>
+
+                                </div>
+                            </div>
+
+                            <div class="row researchi-services-grid m-0">
+                                <div class="col-md-6 col-lg-3 researchi-services-grid-item p-0">
+
+                                    <a href="service.html" class="researchi-service-card-sm researchi-up">
+                                        <h5 class="researchi-muted researchi-mb-30">Branding and <br>Identity Design</h5>
+                                        <p class="researchi-light-soft researchi-mb-30">Our creative agency is a team of professionals focused on helping your brand grow.</p>
+                                        <div class="researchi-button researchi-icon-button-sm researchi-arrow-place"></div>
+                                    </a>
+
+                                </div>
+                                <div class="col-md-6 col-lg-3 researchi-services-grid-item p-0">
+
+                                    <a href="service.html" class="researchi-service-card-sm researchi-up">
+                                        <h5 class="researchi-muted researchi-mb-30">Website Design <br>and Development</h5>
+                                        <p class="researchi-light-soft researchi-mb-30">Our creative agency is a team of professionals focused on helping your brand grow.</p>
+                                        <div class="researchi-button researchi-icon-button-sm researchi-arrow-place"></div>
+                                    </a>
+
+                                </div>
+                                <div class="col-md-6 col-lg-3 researchi-services-grid-item p-0">
+
+                                    <a href="service.html" class="researchi-service-card-sm researchi-up">
+                                        <h5 class="researchi-muted researchi-mb-30">Advertising and <br>Marketing Campaigns</h5>
+                                        <p class="researchi-light-soft researchi-mb-30">Our creative agency is a team of professionals focused on helping your brand grow.</p>
+                                        <div class="researchi-button researchi-icon-button-sm researchi-arrow-place"></div>
+                                    </a>
+
+                                </div>
+                                <div class="col-md-6 col-lg-3 researchi-services-grid-item p-0">
+
+                                    <a href="service.html" class="researchi-service-card-sm researchi-up">
+                                        <h5 class="researchi-muted researchi-mb-30">Creative Consulting <br>and Development</h5>
+                                        <p class="researchi-light-soft researchi-mb-30">Our creative agency is a team of professionals focused on helping your brand grow.</p>
+                                        <div class="researchi-button researchi-icon-button-sm researchi-arrow-place"></div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- services end -->
+
+                <!-- team -->
+                <section>
+                    <div class="container researchi-p-120-30">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-lg-5 col-xl-4">
+
+                                <div class="researchi-mb-90">
+                                    <h2 class="researchi-up researchi-mb-60">Meet <br>Our Team</h2>
+                                    <p class="researchi-up researchi-mb-30">We are talented individuals who are passionate about bringing ideas to life. With a diverse range of backgrounds and skill sets, we collaborate to produce effective solutions for our clients.</p>
+
+                                    <p class="researchi-up researchi-mb-60">Together, our creative team is committed to delivering impactful work that exceeds expectations.</p>
+
+                                    <div class="researchi-up"><a href="team.html" class="researchi-button researchi-arrow-place researchi-mb-60"><span>Read more</span></a></div>
+
+                                    <h4 class="researchi-up"><span class="researchi-thin">We</span> deliver <br><span class="researchi-thin">exceptional</span> results.</h4>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6">
+
+                                <div class="researchi-team-list">
+                                    <div class="researchi-lines-place"></div>
+
+                                    <div class="row researchi-mb-60">
+                                        <div class="col-sm-6">
+
+                                            <div class="researchi-team-card researchi-up researchi-mb-30">
+                                                <img src="img/faces/1.jpg" alt="Team member">
+                                                <div class="researchi-description">
+                                                    <div class="researchi-secrc-text">
+                                                        <h5 class="researchi-muted researchi-mb-5"><a href="home-2.html">Anna Oldman</a></h5>
+                                                        <p class="researchi-link researchi-light-soft researchi-mb-10">Art Director</p>
+                                                        <ul class="researchi-social-icons researchi-center">
+                                                            <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-behance"></i></a></li>
+                                                            <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-dribbble"></i></a></li>
+                                                            <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-twitter"></i></a></li>
+                                                            <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-github"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="researchi-team-card researchi-up researchi-mb-30">
+                                                <img src="img/faces/3.jpg" alt="Team member">
+                                                <div class="researchi-description">
+                                                    <div class="researchi-secrc-text">
+                                                        <h5 class="researchi-muted researchi-mb-5"><a href="home-2.html">Oscar Freeman</a></h5>
+                                                        <p class="researchi-link researchi-light-soft researchi-mb-10">Frontend Dev</p>
+                                                        <ul class="researchi-social-icons researchi-center">
+                                                            <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-behance"></i></a></li>
+                                                            <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-dribbble"></i></a></li>
+                                                            <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-twitter"></i></a></li>
+                                                            <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-github"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-sm-6">
+
+                                            <p class="researchi-mobile-hidden researchi-text-sm researchi-mb-30" style="height: 30px;"><span class="researchi-accent">*</span> The founders of our agency</p>
+
+                                            <div class="researchi-team-card researchi-up researchi-mb-30">
+                                                <img src="img/faces/2.jpg" alt="Team member">
+                                                <div class="researchi-description">
+                                                    <div class="researchi-secrc-text">
+                                                        <h5 class="researchi-muted researchi-mb-5"><a href="home-2.html">Emma Newman</a></h5>
+                                                        <p class="researchi-link researchi-light-soft researchi-mb-10">Founder</p>
+                                                        <ul class="researchi-social-icons researchi-center">
+                                                            <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-behance"></i></a></li>
+                                                            <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-dribbble"></i></a></li>
+                                                            <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-twitter"></i></a></li>
+                                                            <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-github"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="researchi-team-card researchi-up researchi-mb-30">
+                                                <img src="img/faces/4.jpg" alt="Team member">
+                                                <div class="researchi-description">
+                                                    <div class="researchi-secrc-text">
+                                                        <h5 class="researchi-muted researchi-mb-5"><a href="home-2.html">Lisa Trueman</a></h5>
+                                                        <p class="researchi-link researchi-light-soft researchi-mb-10">UI/UX Designer</p>
+                                                        <ul class="researchi-social-icons researchi-center">
+                                                            <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-behance"></i></a></li>
+                                                            <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-dribbble"></i></a></li>
+                                                            <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-twitter"></i></a></li>
+                                                            <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-github"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- team end -->
+
+                <!-- reviews -->
+                <section class="researchi-soft-bg">
+                    <div class="container researchi-p-120-120">
+
+                        <div class="row">
+                            <div class="col-lg-10">
+
+                                <span class="researchi-suptitle researchi-suptitle-right researchi-suptitle-dark researchi-up">Customer reviews are a valuable source <br>of information for both businesses and consumers.</span>
+
+                            </div>
+                        </div>
+
+                        <h2 class="researchi-center researchi-up researchi-mb-60">Customer <span class="researchi-thin">Voices:</span> <br>Hear What <span class="researchi-thin">They Say!</span></h2>
+
+                        <div class="researchi-revi-pagination researchi-up researchi-mb-60"></div>
+
+                        <div class="row researchi-relative justify-content-center">
+                            <div class="col-lg-8">
+
+                                <div class="researchi-slider-nav researchi-soft researchi-reviews-nav researchi-up">
+                                    <div class="researchi-slider-arrow researchi-prev researchi-revi-prev researchi-arrow-place"></div>
+                                    <div class="researchi-slider-arrow researchi-revi-next researchi-arrow-place"></div>
+                                </div>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="researchi-quote-icon researchi-up">
+                                    <path d="M 13.5 10 A 8.5 8.5 0 0 0 13.5 27 A 8.5 8.5 0 0 0 18.291016 25.519531 C 17.422273 29.222843 15.877848 31.803343 14.357422 33.589844 C 12.068414 36.279429 9.9433594 37.107422 9.9433594 37.107422 A 1.50015 1.50015 0 1 0 11.056641 39.892578 C 11.056641 39.892578 13.931586 38.720571 16.642578 35.535156 C 19.35357 32.349741 22 27.072581 22 19 A 1.50015 1.50015 0 0 0 21.984375 18.78125 A 8.5 8.5 0 0 0 13.5 10 z M 34.5 10 A 8.5 8.5 0 0 0 34.5 27 A 8.5 8.5 0 0 0 39.291016 25.519531 C 38.422273 29.222843 36.877848 31.803343 35.357422 33.589844 C 33.068414 36.279429 30.943359 37.107422 30.943359 37.107422 A 1.50015 1.50015 0 1 0 32.056641 39.892578 C 32.056641 39.892578 34.931586 38.720571 37.642578 35.535156 C 40.35357 32.349741 43 27.072581 43 19 A 1.50015 1.50015 0 0 0 42.984375 18.78125 A 8.5 8.5 0 0 0 34.5 10 z" fill="#000000" />
+                                </svg>
+
+                                <div class="swiper-container researchi-reviews-slider">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="researchi-review-frame researchi-center" data-swiper-parallax="-200" data-swiper-parallax-opacity="0">
+                                                <h5 class="researchi-up researchi-mb-10">Sarah Newman</h5>
+                                                <p class="researchi-mb-5 researchi-upper researchi-up researchi-mb-30">Envato market</p>
+                                                <p class="researchi-text-xl researchi-up">This creative agency stands out with their exceptional talent and expertise. Their ability to think outside the box and bring unique ideas to life is truly impressive. With meticulous attention to detail, they consistently deliver visually stunning and impactful work.</p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="researchi-review-frame researchi-center" data-swiper-parallax="-200" data-swiper-parallax-opacity="0">
+                                                <h5 class="researchi-up researchi-mb-10">Emma Trueman</h5>
+                                                <p class="researchi-mb-5 researchi-upper researchi-up researchi-mb-30">Envato market</p>
+                                                <p class="researchi-text-xl researchi-up">I had the pleasure of working with this creative agency, and I must say, they truly impressed me. They consistently think outside the box, resulting in impressive and impactful work. I highly recommend this agency for their consistent delivery of exceptional creative solutions.</p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="researchi-review-frame researchi-center" data-swiper-parallax="-200" data-swiper-parallax-opacity="0">
+                                                <h5 class="researchi-up researchi-mb-10">Sarah Newman</h5>
+                                                <p class="researchi-mb-5 researchi-upper researchi-up researchi-mb-30">Envato market</p>
+                                                <p class="researchi-text-xl researchi-up">This creative agency stands out with their exceptional talent and expertise. Their ability to think outside the box and bring unique ideas to life is truly impressive. With meticulous attention to detail, they consistently deliver visually stunning and impactful work.</p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="researchi-review-frame researchi-center" data-swiper-parallax="-200" data-swiper-parallax-opacity="0">
+                                                <h5 class="researchi-up researchi-mb-10">Emma Trueman</h5>
+                                                <p class="researchi-mb-5 researchi-upper researchi-up researchi-mb-30">Envato market</p>
+                                                <p class="researchi-text-xl researchi-up">I had the pleasure of working with this creative agency, and I must say, they truly impressed me. They consistently think outside the box, resulting in impressive and impactful work. I highly recommend this agency for their consistent delivery of exceptional creative solutions.</p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="researchi-review-frame researchi-center" data-swiper-parallax="-200" data-swiper-parallax-opacity="0">
+                                                <h5 class="researchi-up researchi-mb-10">Sarah Newman</h5>
+                                                <p class="researchi-mb-5 researchi-upper researchi-up researchi-mb-30">Envato market</p>
+                                                <p class="researchi-text-xl researchi-up">This creative agency stands out with their exceptional talent and expertise. Their ability to think outside the box and bring unique ideas to life is truly impressive. With meticulous attention to detail, they consistently deliver visually stunning and impactful work.</p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="researchi-review-frame researchi-center" data-swiper-parallax="-200" data-swiper-parallax-opacity="0">
+                                                <h5 class="researchi-up researchi-mb-10">Emma Trueman</h5>
+                                                <p class="researchi-mb-5 researchi-upper researchi-up researchi-mb-30">Envato market</p>
+                                                <p class="researchi-text-xl researchi-up">I had the pleasure of working with this creative agency, and I must say, they truly impressed me. They consistently think outside the box, resulting in impressive and impactful work. I highly recommend this agency for their consistent delivery of exceptional creative solutions.</p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="researchi-review-frame researchi-center" data-swiper-parallax="-200" data-swiper-parallax-opacity="0">
+                                                <h5 class="researchi-up researchi-mb-10">Sarah Newman</h5>
+                                                <p class="researchi-mb-5 researchi-upper researchi-up researchi-mb-30">Envato market</p>
+                                                <p class="researchi-text-xl researchi-up">This creative agency stands out with their exceptional talent and expertise. Their ability to think outside the box and bring unique ideas to life is truly impressive. With meticulous attention to detail, they consistently deliver visually stunning and impactful work.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- reviews end -->
+
+                <!-- partners -->
+                <div class="researchi-soft-bg">
+                    <div class="container researchi-p-0-120">
+
+                        <div class="swiper-container researchi-infinite-show researchi-up">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#." class="researchi-partner-frame" style="width: 60px;"><img src="img/partners/1.svg" alt="logo"></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#." class="researchi-partner-frame" style="width: 100px;"><img src="img/partners/2.svg" alt="logo"></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#." class="researchi-partner-frame" style="width: 60px;"><img src="img/partners/1.svg" alt="logo"></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#." class="researchi-partner-frame" style="width: 100px;"><img src="img/partners/2.svg" alt="logo"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- partners end -->
+
+                <!-- blog -->
+                <section>
+                    <div class="container researchi-p-120-60">
+                        <div class="row align-items-center researchi-mb-30">
+                            <div class="col-lg-6 researchi-mb-30">
+                                <h3 class="researchi-up">Popular Publications:</h3>
+                            </div>
+                            <div class="col-lg-6 researchi-mb-30">
+                                <div class="researchi-adaptive-right researchi-up">
+                                    <a href="blog.html" class="researchi-link researchi-dark researchi-arrow-place">
+                                        <span>View all</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+
+                                <a href="publication.html" class="researchi-blog-card researchi-mb-60">
+                                    <div class="researchi-cover-frame researchi-up">
+                                        <img src="img/blog/1.jpg" alt="cover">
+                                    </div>
+                                    <div class="researchi-post-descr">
+                                        <div class="researchi-labels researchi-up researchi-mb-30">
+                                            <div class="researchi-label researchi-upper researchi-accent">TECHNOLOGY</div>
+                                            <div class="researchi-label researchi-upper">may 24 2023</div>
+                                        </div>
+                                        <h4 class="researchi-up researchi-mb-30">How to Become a Graphic Designer in 10 Simple Steps</h4>
+                                        <p class="researchi-post-text researchi-up researchi-mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
+                                        <div class="researchi-link researchi-dark researchi-arrow-place researchi-up">
+                                            <span>Read more</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="col-lg-6">
+
+                                <a href="publication.html" class="researchi-blog-card researchi-mb-60">
+                                    <div class="researchi-cover-frame researchi-up">
+                                        <img src="img/blog/2.jpg" alt="cover">
+                                    </div>
+                                    <div class="researchi-post-descr">
+                                        <div class="researchi-labels researchi-up researchi-mb-30">
+                                            <div class="researchi-label researchi-upper researchi-accent">TECHNOLOGY</div>
+                                            <div class="researchi-label researchi-upper">may 24 2023</div>
+                                        </div>
+                                        <h4 class="researchi-up researchi-mb-30">16 Best Graphic Design Online and Offline Courses</h4>
+                                        <p class="researchi-post-text researchi-up researchi-mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
+                                        <div class="researchi-link researchi-dark researchi-arrow-place researchi-up">
+                                            <span>Read more</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- blog end -->
+
+                <!-- footer -->
+                <footer class="researchi-dark-bg">
+                    <div class="mi-invert-fix">
+                        <div class="container researchi-p-120-60">
+                            <div class="row justify-content-between">
+                                <div class="col-md-4 col-lg-4 researchi-mb-60">
+
+                                    <div class="researchi-muted researchi-logo researchi-up researchi-mb-30">Rese.Archi</div>
+
+                                    <p class="researchi-light-soft researchi-up researchi-mb-30">Subscribe our newsletter:</p>
+
+                                    <form class="researchi-subscribe-form researchi-up">
+                                        <input type="text" placeholder="Enter our email">
+                                        <button type="submit" class="researchi-button researchi-icon-button-sm researchi-arrow-place"></button>
+                                    </form>
+
+                                </div>
+                                <div class="col-md-7 col-lg-6">
+                                    <div class="row justify-content-end">
+                                        <div class="col-md-6 col-lg-7">
+
+                                            <nav class="researchi-footer-menu researchi-mb-60">
+                                                <ul>
+                                                    <li class="researchi-up researchi-active">
+                                                        <a href="home-1.html">Home</a>
+                                                    </li>
+                                                    <li class="researchi-up">
+                                                        <a href="portfolio-1.html">Portfolio</a>
+                                                    </li>
+                                                    <li class="researchi-up">
+                                                        <a href="services.html">Services</a>
+                                                    </li>
+                                                    <li class="researchi-up">
+                                                        <a href="contact.html">Contact</a>
+                                                    </li>
+                                                    <li class="researchi-up">
+                                                        <a href="blog.html">Blog</a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+
+                                        </div>
+                                        <div class="col-md-6 col-lg-5">
+
+                                            <ul class="researchi-menu-list researchi-up researchi-mb-60">
+                                                <li><a href="#." class="researchi-light-soft">Privacy Policy</a></li>
+                                                <li><a href="#." class="researchi-light-soft">Terms and conditions</a></li>
+                                                <li><a href="#." class="researchi-light-soft">Cookie Policy</a></li>
+                                                <li><a href="#." class="researchi-light-soft">Careers</a></li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-between flex-sm-row-reverse">
+                                <div class="col-md-7 col-lg-6">
+
+                                    <div class="row justify-content-between">
+
+                                        <div class="col-md-6 col-lg-5 researchi-mb-60">
+
+                                            <h6 class="researchi-muted researchi-up researchi-mb-30">United Arab Emirates</h6>
+
+                                            <p class="researchi-light-soft researchi-up">One Central, Dubai <span class="researchi-no-wrap">+971 58 590 3838</span></p>
+
+                                        </div>
+                                        <div class="col-md-6 col-lg-5 researchi-mb-60">
+
+                                            <h6 class="researchi-muted researchi-up researchi-mb-30">India</h6>
+
+                                            <p class="researchi-light-soft researchi-up">Mahanagar, Lucknow <span class="researchi-no-wrap">+91 73 7667 7667</span></p>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4 col-lg-6 researchi-mb-60">
+
+                                    <div class="researchi-vert-between">
+                                        <div class="researchi-mb-30">
+                                            <ul class="researchi-social-icons researchi-up">
+                                                <li><a href="#." target="_blank" class="social-icon"> <i class="far fa-circle"></i></a></li>
+                                                <li><a href="#." target="_blank" class="social-icon"> <i class="far fa-circle"></i></a></li>
+                                                <li><a href="#." target="_blank" class="social-icon"> <i class="far fa-circle"></i></a></li>
+                                                <li><a href="#." target="_blank" class="social-icon"> <i class="far fa-circle"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <p class="researchi-light-soft researchi-up">© Copyright 2025 - ReseArchi. All Rights Reserved.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- footer end -->
+
+                <!-- hidden elements -->
+                <div class="researchi-hidden-elements">
+                    <div class="researchi-dodecahedron">
+                        <div class="researchi-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="researchi-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="researchi-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="researchi-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="researchi-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="researchi-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="researchi-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="researchi-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="researchi-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="researchi-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="researchi-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="researchi-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="researchi-arrow">
+                        <path d="M 14 5.3417969 C 13.744125 5.3417969 13.487969 5.4412187 13.292969 5.6367188 L 13.207031 5.7226562 C 12.816031 6.1136563 12.816031 6.7467188 13.207031 7.1367188 L 17.070312 11 L 4 11 C 3.448 11 3 11.448 3 12 C 3 12.552 3.448 13 4 13 L 17.070312 13 L 13.207031 16.863281 C 12.816031 17.254281 12.816031 17.887344 13.207031 18.277344 L 13.292969 18.363281 C 13.683969 18.754281 14.317031 18.754281 14.707031 18.363281 L 20.363281 12.707031 C 20.754281 12.316031 20.754281 11.682969 20.363281 11.292969 L 14.707031 5.6367188 C 14.511531 5.4412187 14.255875 5.3417969 14 5.3417969 z" />
+                    </svg>
+
+                    <svg width="250" viewBox="0 0 300 1404" fill="none" xmlns="http://www.w3.org/2000/svg" class="researchi-lines">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1 892L1 941H299V892C299 809.71 232.29 743 150 743C67.7096 743 1 809.71 1 892ZM0 942H300V892C300 809.157 232.843 742 150 742C67.1573 742 0 809.157 0 892L0 942Z" class="researchi-move" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M299 146V97L1 97V146C1 228.29 67.7096 295 150 295C232.29 295 299 228.29 299 146ZM300 96L0 96V146C0 228.843 67.1573 296 150 296C232.843 296 300 228.843 300 146V96Z" class="researchi-move" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M299 1H1V1403H299V1ZM0 0V1404H300V0H0Z" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M150 -4.37115e-08L150 1404L149 1404L149 0L150 -4.37115e-08Z" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M150 1324C232.29 1324 299 1257.29 299 1175C299 1092.71 232.29 1026 150 1026C67.7096 1026 1 1092.71 1 1175C1 1257.29 67.7096 1324 150 1324ZM150 1325C232.843 1325 300 1257.84 300 1175C300 1092.16 232.843 1025 150 1025C67.1573 1025 0 1092.16 0 1175C0 1257.84 67.1573 1325 150 1325Z" class="researchi-move" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M300 1175H0V1174H300V1175Z" class="researchi-move" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M150 678C232.29 678 299 611.29 299 529C299 446.71 232.29 380 150 380C67.7096 380 1 446.71 1 529C1 611.29 67.7096 678 150 678ZM150 679C232.843 679 300 611.843 300 529C300 446.157 232.843 379 150 379C67.1573 379 0 446.157 0 529C0 611.843 67.1573 679 150 679Z" class="researchi-move" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M299 380H1V678H299V380ZM0 379V679H300V379H0Z" class="researchi-move" />
+                    </svg>
+                </div>
+                <!-- hidden elements end -->
+
+            </div>
+        </div>
+        <!-- content -->
     </div>
+    <!-- wrapper end -->
+
+    <!-- jQuery js -->
+    <script src="js/plugins/jquery.min.js"></script>
+    <!-- swup js -->
+    <script src="js/plugins/swup.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/plugins/swiper.min.js"></script>
+    <!-- fancybox js -->
+    <script src="js/plugins/fancybox.min.js"></script>
+    <!-- gsap js -->
+    <script src="js/plugins/gsap.min.js"></script>
+    <!-- scroll smoother -->
+    <script src="js/plugins/smooth-scroll.js"></script>
+    <!-- scroll trigger js -->
+    <script src="js/plugins/ScrollTrigger.min.js"></script>
+    <!-- scroll to js -->
+    <script src="js/plugins/ScrollTo.min.js"></script>
+    <!-- ashley js -->
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
