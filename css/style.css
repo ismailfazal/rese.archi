@@ -1668,6 +1668,7 @@ banner
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  background-image: url('/img/bg-top.wep');
 }
 .researchi-banner .researchi-banner-content {
   width: 100%;
