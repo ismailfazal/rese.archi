@@ -1659,6 +1659,7 @@ banner
 ------------------------------------------- */
 .researchi-banner {
   height: 100vh;
+  background-image: url(/img/bg-top.webp);
 }
 .researchi-banner .container {
   height: 100%;
@@ -1668,7 +1669,6 @@ banner
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background-image: url('/img/bg-top.wep');
 }
 .researchi-banner .researchi-banner-content {
   width: 100%;
