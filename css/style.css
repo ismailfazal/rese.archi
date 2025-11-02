@@ -1220,7 +1220,7 @@ frame
 }
 @media screen and (max-width: 1200px) {
   .researchi-frame .researchi-frame-top {
-    height: 90px;
+    height: 75px;
     background-color: rgba(0, 0, 0, 0.95);
     border-bottom: solid 1px rgba(255, 255, 255, 0.1);
     padding: 0 30px;
